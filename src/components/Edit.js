@@ -93,7 +93,8 @@ class Edit extends Component {
                 <label for="id">Id:</label>
                 <input type="text" class="form-control" name="id" value={this.state.id} onChange={this.onChange} placeholder="Id" />
               </div>
-              <button type="submit" class="btn btn-success">Submit</button>
+              <button type="submit" class="btn btn-success">Submit</button>&nbsp;
+              <Link to="/" class="btn btn-primary">Home</Link>
             </form>
           </div>
         </div>
